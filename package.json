@@ -1,0 +1,45 @@
+{
+  "name": "@stdlib/number-float32-base-significand",
+  "version": "0.0.0",
+  "description": "Return an integer corresponding to the significand of a single-precision floating-point number.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/number-float32-base-significand.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "base",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "types",
+    "type",
+    "significand",
+    "mantissa",
+    "fraction",
+    "frac",
+    "coefficient",
+    "bits",
+    "floating-point",
+    "float32",
+    "float",
+    "single",
+    "32-bit",
+    "ieee754",
+    "number",
+    "word"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
