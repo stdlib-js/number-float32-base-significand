@@ -18,7 +18,7 @@ limitations under the License.
 
 -->
 
-# Significand
+# significandf
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -52,7 +52,7 @@ var significandf = require( '@stdlib/number-float32-base-significand' );
 
 #### significandf( x )
 
-Returns an `integer` corresponding to the significand of a [single-precision floating-point number][ieee754].
+Returns an integer corresponding to the significand of a [single-precision floating-point number][ieee754].
 
 ```javascript
 var toFloat32 = require( '@stdlib/number-float64-base-to-float32' );
