@@ -24,30 +24,14 @@ limitations under the License.
 
 > Return an integer corresponding to the significand of a [single-precision floating-point number][ieee754].
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/number-float32-base-significand
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var significandf = require( '@stdlib/number-float32-base-significand' );
+import significandf from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-significand@esm/index.mjs';
 ```
 
 #### significandf( x )
@@ -55,7 +39,7 @@ var significandf = require( '@stdlib/number-float32-base-significand' );
 Returns an `integer` corresponding to the significand of a [single-precision floating-point number][ieee754].
 
 ```javascript
-var toFloat32 = require( '@stdlib/number-float64-base-to-float32' );
+import toFloat32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-float32@esm/index.mjs';
 
 var s = significandf( toFloat32( 3.14e34 ) ); // => 10000011000010001110111
 // returns 4293751
@@ -83,12 +67,17 @@ s = significandf( NaN ); // => 10000000000000000000000
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var round = require( '@stdlib/math-base-special-round' );
-var pow = require( '@stdlib/math-base-special-pow' );
-var toFloat32 = require( '@stdlib/number-float64-base-to-float32' );
-var significandf = require( '@stdlib/number-float32-base-significand' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
+import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
+import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@esm/index.mjs';
+import toFloat32 from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-to-float32@esm/index.mjs';
+import significandf from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-significand@esm/index.mjs';
 
 var frac;
 var exp;
@@ -105,6 +94,10 @@ for ( i = 0; i < 100; i++ ) {
     s = significandf( x );
     console.log( 'x: %d. significand: %d.', x, s );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -113,92 +106,7 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- C interface documentation. -->
 
-* * *
 
-<section class="c">
-
-## C APIs
-
-<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
-
-<section class="intro">
-
-</section>
-
-<!-- /.intro -->
-
-<!-- C usage documentation. -->
-
-<section class="usage">
-
-### Usage
-
-```c
-#include "stdlib/number/float32/base/significand.h"
-```
-
-#### stdlib_base_float32_significand( x )
-
-Returns an integer `y` corresponding to the significand of a single-precision floating-point number `x`.
-
-```c
-#include <stdint.h>
-
-int32_t y;
-stdlib_base_float32_significand( 3.14f );
-```
-
-The function accepts the following arguments:
-
--   **x**: `[in] float` input value.
-
-```c
-int32_t stdlib_base_float32_significand( const float x );
-```
-
-</section>
-
-<!-- /.usage -->
-
-<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
-
-<section class="notes">
-
-</section>
-
-<!-- /.notes -->
-
-<!-- C API usage examples. -->
-
-<section class="examples">
-
-### Examples
-
-```c
-#include "stdlib/number/float32/base/significand.h"
-#include <stdint.h>
-#include <stdio.h>
-#include <inttypes.h>
-
-int main() {
-    float x[] = { 4.0f, 0.0f, -0.0f, 1.0f, -1.0f, 3.14f, -3.14f, 1.0e38f, -1.0e38f, 1.0f/0.0f, -1.0f/0.0f, 0.0f/0.0f };
-
-    int32_t out;
-    int i;
-    for ( i = 0; i < 12; i++ ) {
-        out = stdlib_base_float32_significand( x[ i ] );
-        printf( "%f => %" PRId32 "\n", x[ i ], out );
-    }
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-</section>
-
-<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -217,7 +125,7 @@ int main() {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
