@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-15)
+## Unreleased (2025-09-28)
 
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#6703](https://github.com/stdlib-js/stdlib/issues/6703)
+[#6703](https://github.com/stdlib-js/stdlib/issues/6703), [#8136](https://github.com/stdlib-js/stdlib/issues/8136)
 
 </section>
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`db17d2d`](https://github.com/stdlib-js/stdlib/commit/db17d2df2df67b618c41799249b660c4f9933d1d) - **chore:** fix C lint errors [(#8137)](https://github.com/stdlib-js/stdlib/pull/8137) _(by GeoDaoyu, Athan Reines)_
 -   [`63ca7e4`](https://github.com/stdlib-js/stdlib/commit/63ca7e473044990d355b5e7e1e991b66be7ac411) - **style:** add empty lines _(by Athan Reines)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -41,9 +42,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   GeoDaoyu
 -   Philipp Burckhardt
 -   zhanggy
 
