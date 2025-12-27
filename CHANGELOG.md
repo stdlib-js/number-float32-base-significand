@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-28)
+## Unreleased (2025-12-27)
 
 <section class="issues">
 
@@ -24,12 +24,13 @@ A total of 2 issues were closed in this release:
 
 <details>
 
--   [`db17d2d`](https://github.com/stdlib-js/stdlib/commit/db17d2df2df67b618c41799249b660c4f9933d1d) - **chore:** fix C lint errors [(#8137)](https://github.com/stdlib-js/stdlib/pull/8137) _(by GeoDaoyu, Athan Reines)_
+-   [`6ce0275`](https://github.com/stdlib-js/stdlib/commit/6ce0275d3eec598ce3ecb8da74a1c82f0de3a482) - **docs:** remove incorrect hyphens from JSDoc `returns` annotations _(by Philipp Burckhardt)_
+-   [`db17d2d`](https://github.com/stdlib-js/stdlib/commit/db17d2df2df67b618c41799249b660c4f9933d1d) - **chore:** fix C lint errors [(#8137)](https://github.com/stdlib-js/stdlib/pull/8137) _(by Geo Daoyu, Athan Reines)_
 -   [`63ca7e4`](https://github.com/stdlib-js/stdlib/commit/63ca7e473044990d355b5e7e1e991b66be7ac411) - **style:** add empty lines _(by Athan Reines)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`7483bef`](https://github.com/stdlib-js/stdlib/commit/7483bef13b1d3241347266d25a02957269419825) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
--   [`f3cfeab`](https://github.com/stdlib-js/stdlib/commit/f3cfeaba512914fe482fc3ec96f4293e104a6baf) - **chore:** fix EditorConfig lint errors [(#6861)](https://github.com/stdlib-js/stdlib/pull/6861) _(by zhanggy)_
+-   [`f3cfeab`](https://github.com/stdlib-js/stdlib/commit/f3cfeaba512914fe482fc3ec96f4293e104a6baf) - **chore:** fix EditorConfig lint errors [(#6861)](https://github.com/stdlib-js/stdlib/pull/6861) _(by Geo Daoyu)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 
 </details>
@@ -42,12 +43,11 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   GeoDaoyu
+-   Geo Daoyu
 -   Philipp Burckhardt
--   zhanggy
 
 </section>
 
